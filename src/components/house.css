@@ -1,0 +1,21 @@
+.home-body{
+    position: absolute;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    left: 120px;
+    top: 300px;
+    background-color: orange;
+}
+
+
+.home-top {
+    position: absolute;
+    /* border: 1px solid black; */
+    width:250px;
+    height: 50px;
+    left: 95px;
+    top: 250px;
+    clip-path: polygon(20% 0, 80% 0, 100% 100%, 0% 100%);
+    background-color: red;
+} 

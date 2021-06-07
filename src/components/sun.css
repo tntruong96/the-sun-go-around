@@ -1,0 +1,88 @@
+.sun {
+  position: absolute;
+  width: 800px;
+  height: 500px;
+  left: 50px;
+  top: 100px
+}
+
+
+.sun-body {
+  position: absolute;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: yellow;
+  right: 100px;
+  top: 55px;
+}
+
+.sun-ray-1 {
+position: absolute;
+border: 1px solid black;
+border-top: none;
+border-left: none;
+border-bottom: none;
+
+width: 200px;
+height: 200px;
+right: 150px;
+top: 10px;
+
+}
+
+.sun-ray-2 {
+  position: absolute;
+  border: 1px solid black;
+  border-top: none;
+  border-left: none;
+  border-bottom: none;
+  width: 200px;
+  height: 200px;
+  right: 120px;
+  top: -70px;
+  transform: rotate(50deg);
+  
+  }
+
+  .sun-ray-3 {
+    position: absolute;
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    
+    width: 200px;
+    height: 200px;
+    right: 50px;
+    top: -90px;
+    transform: rotate(90deg);
+    }
+
+    .sun-ray-4 {
+      position: absolute;
+      border: 1px solid black;
+      border-top: none;
+      border-left: none;
+      border-bottom: none;
+      
+      width: 200px;
+      height: 200px;
+      right: 150px;
+      top: 10px;
+      right: -20px;
+      top: -70px;
+      transform: rotate(130deg);
+      }
+
+      .animation-sun {
+          animation: turn-around 24s linear 0s infinite normal;
+      }
+
+
+      @keyframes turn-around {
+
+        from {transform: rotate(0deg)}
+        to {transform: rotate(360deg)}
+      }
